@@ -1,0 +1,21 @@
+Wzorce projektowe i ich zastosowanie:
+1. Kompozyt - wzorzec projektowy którego celem jest składanie obiektów w taki sposób, aby klient widział 
+wiele z nich jako jeden obiekt. Wzorzec ten stosuje się kiedy wygodniej jest korzystać z z pewnych operacji dla danego 
+obiektu w ten sam sposób jak dla grupy obiektów. 
+
+2. Obserwator - to behawioralny wzorzec projektowy pozwalający zdefiniować mechanizm subskrypcji w celu powiadomienia wielu obiektów o
+zdarzeniach dziejących się w obserwowanym świecie. Celem obserwatora jest ustanowienie dynamicznych, jednokierunkowych połączeń między
+obiektami których część jest podległa innym.
+
+3. Strategia - to behawioralny wzorzec projektowy pozwalający zdefiniować rodzinę algorytmów, umieścić je w osobnych
+klasach i uczynić obiekty tych klas wymienialnymi. Wzorzec Strategia proponuje ekstrakcję poszczególnych algorytmów wykonujących
+dane zadanie na różne sposoby i umieszczenie ich odrębnych klasach zwanych strategiami.
+
+4. Metoda wytwórcza - to kreacyjny wzorzec projektowy ktory udostępnia interfejs do tworzenia obiektów w ramach klasy bazowej, 
+ale pozwala podklasom zmieniać typ tworzonych obiektów. Wzorzec projektowy Metody Wytwórcze proponuje zmianę bezpośrednich
+wywołań konstruktorów obiektów na wywałania specjalnej metody wytwórczej.
+
+5. Dektorator - to strukturalny wzorzec projektowy pozwalający dodawać nowe obowiązki obiektom poprzez 
+umieszczenie tych obiektów w specjalnych obiektach opakowujących, które zawierają odpowiednie zachowania. Stosuje się 
+go w momencie w którym chcemy przpisać dodatkowe obowiązki obiektom w trakcie działania programu, bez psucia kodu który z 
+tych obiektów korzysta.
